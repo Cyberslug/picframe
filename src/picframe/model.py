@@ -196,7 +196,8 @@ class Model:
         self.__no_files_img = os.path.expanduser(model_config['no_files_img'])
         self.__sort_cols = model_config['sort_cols']
         self.__col_names = None
-        self.__where_clauses = {}  # these will be modified by controller
+        # This is a first attempt at limiting the display of files in my collection.
+        self.__where_clauses = {'rating':'is not -1'}  # these will be modified by controller
 
     def get_viewer_config(self):
         return self.__config['viewer']
