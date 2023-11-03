@@ -65,3 +65,14 @@ Many Thanks to Wolfgang [www.thedigitalpictureframe.com](https://www.thedigitalp
 A special Thank to Paddy Gaunt one of the authors of the [pi3d](https://github.com/pi3d/pi3d_demos) project. You are doing a great job!
 
 Last but no least a big Thank You to Jeff Godfrey. Your auto mat feature and database driven cache is an outstanding piece of code.
+
+## Local Notes
+
+I would like to add a couple of features that may be on the developers roadmap but are important for me.  Some of these are
+
+- better control of which pictures are selected
+  - some control through tags is possible but I would like to use a rating scheme such that some pictures are never shown
+  - the addition of the results of a face detection suite so that I can constrain based on who is in the picture
+- better understanding of the MQTT control.  I would like to use MQTT but don't use home assistant.  I would like to disentangle MQTT and home assistant.
+- maybe other stuff.  This is the best basis for further work that I have ever seen.  Good job all.
+- 
